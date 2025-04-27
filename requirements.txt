@@ -3,3 +3,4 @@ mysql-connector-python==8.3.0
 PyYAML==6.0.1
 sqlparse==0.4.4
 rich==13.7.0
+aw
