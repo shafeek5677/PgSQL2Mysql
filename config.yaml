@@ -1,0 +1,21 @@
+postgresql:
+  host: "localhost"
+  port: 5432
+  database: "postgres"
+  user: "postgres"
+  password: "{Hbeat123}"
+
+mysql:
+  host: "localhost"
+  port: 3307
+  database: "test"
+  user: "root"
+  password: "{Hbeat123}"
+
+migration:
+  schema_only: false
+  data_only: false
+  full_migration: true
+  tables_include: []   # Example: ["customers", "orders"]
+  tables_exclude: []   # Example: ["audit_logs"]
+  batch_size: 1000     # Number of rows to insert at a time during data migration
